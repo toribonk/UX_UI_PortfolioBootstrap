@@ -1,0 +1,76 @@
+body {
+    background-color: #1F2528;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+}
+/* Text */
+h1 {
+    font-size: 40px;
+    color: #ff4040;
+    font-weight: 900;
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  h3 { 
+      font-size: 18px;
+      font-weight:100;
+  }
+  h6 {
+    font-size: 11px;
+    text-align: center;
+  }
+  p {
+    font-family: 'OpenSans', sans-serif;
+    color: white;
+  }
+  
+  /* Navigation bar */
+  
+  /* General */
+  .customNav {
+    position: fixed;
+    width: 100%;
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    padding-right: 30px;
+    width: 65px;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+  
+  /* Navigation dropdown menu */
+  .dropdown-menu {
+    background: url("../images/transparency.png");
+    background-color: transparent !important;
+    background-size: cover;
+  }
+  .dropdown-item:focus, .dropdown-item:hover {
+      color: #ff4040;
+      text-decoration: none;
+      background:#ff4040;
+  }
+  
+  /* Navigation links */
+  .customNav a {
+    color: white !important;
+  }
+  .navCTA {
+    font-size: 15px;
+  }
+
+  .heroimg {
+    height: 600px;
+  }
+  
