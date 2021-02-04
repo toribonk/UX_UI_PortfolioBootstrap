@@ -18,10 +18,12 @@ h1 {
   h3 { 
       font-size: 18px;
       font-weight:100;
+      color: white;
   }
   h6 {
     font-size: 11px;
-    text-align: center;
+    font-weight:100;
+    color: white;
   }
   p {
     font-family: 'OpenSans', sans-serif;
@@ -73,4 +75,37 @@ h1 {
   .heroimg {
     height: 600px;
   }
-  
+
+  .arrow {
+      height: 110px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 10%;
+  }
+  .skillsimg {
+    height: 200px;
+    padding: 30px 100px 30px;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+hr.dashed {
+  border-top: 1px dashed #f2bd1e;
+  width: 70%;
+  align-items: center;
+  }
+
+  footer {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #4682B4;
+    margin-top: 50px;
+  }
+  .bottomnavimg {
+    height: 30px;
+    padding: 20px;
+}
