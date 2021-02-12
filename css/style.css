@@ -96,7 +96,18 @@ hr.dashed {
   width: 70%;
   align-items: center;
   }
-
+  .casestudyimg {
+    height: 600px;
+}
+.casestudyimg2 {
+  height: 450px;
+}
+.casestudyimg3 {
+  height: 670px;
+}
+.casestudyimg4 {
+  height: 380px;
+}
   footer {
     position: absolute;
     width: 100%;
